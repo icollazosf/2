@@ -1,0 +1,17 @@
+{
+  "name": "reparacion-neveras",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.397.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
