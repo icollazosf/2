@@ -56,7 +56,7 @@ export default function LandingNeveras() {
             </span>
             <h1 className="mt-4 text-4xl md:text-5xl font-bold leading-tight">
               Reparación de{" "}
-              <span className="text-slate-900">Neveras</span>{" "}
+              <span className="text-slate-900">Neveras,</span>{" "}
               <span className="text-slate-500">Lavadoras y más este 2025</span>
             </h1>
             <p className="mt-4 text-slate-600 text-lg">
