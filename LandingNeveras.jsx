@@ -7,7 +7,7 @@ import heroImg from "./tecnico-servi.jpg";
 
 // ✅ Datos del negocio (ajusta lo que necesites)
 const BUSINESS = {
-  name: "Servi-Reparaciones del Atlántico By Cesar Blanco",
+  name: "Servi-Reparaciones By Cesar Blanco",
   city: "Medellín y Alrededores",
   phoneDisplay: "(313) 5797188",
   phoneLink: "+573135797188",
@@ -284,16 +284,6 @@ export default function LandingNeveras() {
       {/* Footer */}
       <footer className="py-10 border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
-          <div className="flex items-center gap-3">
-            <img
-              src={logo}
-              alt="Logo"
-              className="h-7 w-auto rounded-md"
-              loading="lazy"
-              decoding="async"
-            />
-            <span className="font-medium">{BUSINESS.name}</span>
-          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 text-center">
             <a href={`tel:${BUSINESS.phoneLink}`} className="hover:underline">{BUSINESS.phoneDisplay}</a>
             <a href={BUSINESS.whatsappLink} className="hover:underline" target="_blank" rel="noreferrer">WhatsApp</a>
