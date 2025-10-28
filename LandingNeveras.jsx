@@ -283,10 +283,6 @@ export default function LandingNeveras() {
       {/* Footer */}
       <footer className="py-10 border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 text-sm text-slate-600 flex flex-col md:flex-row items-center justify-between gap-3">
-          <div className="flex flex-wrap items-center justify-center gap-4 text-center">
-            <a href={`tel:${BUSINESS.phoneLink}`} className="hover:underline">{BUSINESS.phoneDisplay}</a>
-            <a href={BUSINESS.whatsappLink} className="hover:underline" target="_blank" rel="noreferrer">WhatsApp</a>
-          </div>
         </div>
       </footer>
     </div>
