@@ -2,8 +2,8 @@ import React from "react";
 import { Phone, Wrench, Clock, ShieldCheck, BadgeCheck, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 
-import logo from "./assets/logo-servi.png";
-import heroImg from "./assets/tecnico-servi.jpg";
+import logo from "./logo-servi.png";
+import heroImg from "./tecnico-servi.jpg";
 
 // ✅ Datos del negocio (ajusta lo que necesites)
 const BUSINESS = {
