@@ -2,10 +2,10 @@ import React from "react";
 import { Phone, Wrench, Clock, ShieldCheck, BadgeCheck, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 
-// 🔽 IMPORTA TUS IMÁGENES (Vite/CRA)
-// Coloca estos archivos en src/assets/ y ajusta los nombres si cambian
-import logo from "./assets/logo-servi.png";
-import heroImg from "./assets/tecnico-servi.jpg";
+const PUBLIC_PATHS = {
+logo: '/logo-servi.png',
+hero: '/tecnico-servi.jpg',
+};
 
 // ✅ Datos del negocio (ajusta lo que necesites)
 const BUSINESS = {
