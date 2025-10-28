@@ -57,7 +57,7 @@ export default function LandingNeveras() {
             <h1 className="mt-4 text-4xl md:text-5xl font-bold leading-tight">
               Reparación de{" "}
               <span className="text-slate-900">Neveras</span>{" "}
-              <span className="text-slate-500">Lavadoras y Más</span>
+              <span className="text-slate-500">Lavadoras y Más 2025</span>
             </h1>
             <p className="mt-4 text-slate-600 text-lg">
               Técnicos certificados, diagnóstico rápido y garantía escrita. Evitá
