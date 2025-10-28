@@ -13,7 +13,6 @@ const BUSINESS = {
   phoneLink: "+573135797188",
   whatsappLink:
     "https://wa.me/573135797188?text=Hola amigo,%20necesito%20reparar%20mi%20nevera,%20lavadora%20o%20secadora.",
-  email: "cesarblancoo2025@gmail.com",
 };
 
 export default function LandingNeveras() {
@@ -287,7 +286,6 @@ export default function LandingNeveras() {
           <div className="flex flex-wrap items-center justify-center gap-4 text-center">
             <a href={`tel:${BUSINESS.phoneLink}`} className="hover:underline">{BUSINESS.phoneDisplay}</a>
             <a href={BUSINESS.whatsappLink} className="hover:underline" target="_blank" rel="noreferrer">WhatsApp</a>
-            <a href={`mailto:${BUSINESS.email}`} className="hover:underline">{BUSINESS.email}</a>
           </div>
         </div>
       </footer>
