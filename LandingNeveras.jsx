@@ -5,39 +5,6 @@ import { motion } from "framer-motion";
 import logo from "./logo-servi.png";
 import heroImg from "./tecnico-servi.jpg";
 
-<a
-  href="https://wa.me/573001234567?text=¡Hola!%20Quiero%20más%20información."
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    position: "fixed",
-    width: "60px",
-    height: "60px",
-    bottom: "20px",
-    right: "20px",
-    backgroundColor: "#25D366",
-    color: "white",
-    borderRadius: "50%",
-    textAlign: "center",
-    boxShadow: "0 2px 10px rgba(0,0,0,0.3)",
-    zIndex: 1000,
-    transition: "transform 0.3s ease",
-  }}
-  onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
-  onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
->
-  <img
-    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-    alt="WhatsApp"
-    style={{
-      width: "35px",
-      height: "35px",
-      marginTop: "12px",
-    }}
-  />
-</a>
-
-
 // ✅ Datos del negocio (ajusta lo que necesites)
 const BUSINESS = {
   name: "Servi-Reparaciones By Cesar Blanco",
@@ -76,6 +43,40 @@ export default function LandingNeveras() {
         </div>
       </header>
 
+<div>
+<a
+  href="https://wa.me/573001234567?text=¡Hola!%20Quiero%20más%20información."
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    position: "fixed",
+    width: "60px",
+    height: "60px",
+    bottom: "20px",
+    right: "20px",
+    backgroundColor: "#25D366",
+    color: "white",
+    borderRadius: "50%",
+    textAlign: "center",
+    boxShadow: "0 2px 10px rgba(0,0,0,0.3)",
+    zIndex: 1000,
+    transition: "transform 0.3s ease",
+  }}
+  onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
+  onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+    alt="WhatsApp"
+    style={{
+      width: "35px",
+      height: "35px",
+      marginTop: "12px",
+    }}
+  />
+</a>
+</div>
+      
       {/* Hero */}
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
